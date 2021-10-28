@@ -190,50 +190,46 @@
 
 // / ASSIGNMENT JAVA SCRIPT///
 
-// var firstName = prompt("firstName " , "Muhammed <br>");
+var firstName = prompt("Enter your firstName");
 
-// var lastName = prompt("lastName" , "Ahmed <br> ") 
+var lastName = prompt("Enter your lastName") 
 
-// var rollName = prompt("rollName"  ,  "786 <br>" );
+var rollName = prompt("Enter your rollName");
 
-// var schoolName = prompt("schoolName" , "JawanPK");
+var institude = prompt("Enter your institude");
 
+var islamiat = +prompt("Enter your islamiat marks")
 
-// document.write(firstName + lastName + rollName + schoolName );
+var html = +prompt("Enter your html marks")
 
-// var subject1 = +prompt ("Islamiat", "80");
+var css = +prompt("Enter your css marks")
 
-// var subject2 = +prompt ("English" , "60");
+var javascript = +prompt("Enter your javascript marks")
 
-// var subject3 = +prompt ("html" , "65");
+var english = +prompt("Enter your english marks")
 
-// var subject4 = +prompt ("Javascript" , "70");
+var obtained = islamiat + html + css + javascript + english;
 
-// var subject5 = +prompt ("css" , "75");
+var total = prompt("Enter your total mark")
 
-
-// document.write("Obt mark <br> " , subject1  + subject2 + subject3 + subject4 + subject5);
-
-// subject2 = +prompt ("Islamiat", "100");
-
-// var subject2 = +prompt ("English" , "100");
-
-// var subject3 = +prompt ("html" , "100");
-
-// var subject4 = +prompt ("Javascript" , "100");
-
-// var subject5 = +prompt ("css" , "100");
+var percentage = obtained / total * 100;
 
 
-// document.write ("total <br>" , subject1+ subject2 + subject3 + subject4 + subject5);
+///group of Characters///
 
-// var obt = 350;
+document.write(firstName);
+document.write("<br />" , lastName);
+document.write("<br />" ,rollName);
+document.write("<br />" ,institude);
+document.write("<br />" ,islamiat);
+document.write("<br />" ,html);
+document.write("<br />" ,css);
+document.write("<br />" ,javascript);
+document.write("<br />" ,english);
+document.write("<br />" ,obtained);
+document.write("<br />" ,total);
+document.write("<br />" ,percentage);
 
-// var total = 500;
-
-// var percentage = obt / total * 100;
-
-// alert(percentage);
 
 
 
